@@ -1,0 +1,13 @@
+--------------------------- p = 1 ---------------------------
+omp_odd_even1: Elapsed time = 8.66 seconds  // SPEEDUP: 1.0
+omp_odd_even2: Elapsed time = 8.86 seconds  // SPEEDUP: 1.0
+--------------------------- p = 2 ---------------------------
+omp_odd_even1: Elapsed time = 4.11 seconds  // SPEEDUP: 2.11
+omp_odd_even2: Elapsed time = 3.89 seconds  // SPEEDUP: 2.28
+--------------------------- p = 4 ---------------------------
+omp_odd_even1: Elapsed time = 2.46 seconds  // SPEEDUP: 3.52
+omp_odd_even2: Elapsed time = 2.23 seconds  // SPEEDUP: 3.97
+--------------------------- p = 8 ---------------------------
+omp_odd_even1: Elapsed time = 2.28 seconds  // SPEEDUP: 3.80
+omp_odd_even2: Elapsed time = 2.04 seconds  // SPEEDUP: 4.34
+-------------------------------------------------------------

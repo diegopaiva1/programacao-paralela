@@ -1,0 +1,19 @@
+--------- p = 1 ---------
+Hello from thread 0 of 1
+--------- p = 2 ---------
+Hello from thread 0 of 2
+Hello from thread 1 of 2
+--------- p = 4 ---------
+Hello from thread 0 of 4
+Hello from thread 3 of 4
+Hello from thread 2 of 4
+Hello from thread 1 of 4
+--------- p = 8 ---------
+Hello from thread 0 of 8
+Hello from thread 1 of 8
+Hello from thread 4 of 8
+Hello from thread 2 of 8
+Hello from thread 6 of 8
+Hello from thread 5 of 8
+Hello from thread 3 of 8
+Hello from thread 7 of 8

@@ -1,0 +1,19 @@
+1) omp_trap1:
+
+Neste código, a função Trap é executada em paralelo passando-se como argumentos os valores de a, b e n (nº de trapézios), além do endereço da variável que armazena o resultado global. Dentro da função especificamente, cada thread calcula o intervalo de integração, computa o valor da integral e adiciona na variável global_result. Este código utiliza a diretiva #pragma omp critical para incrementar o resultado global, por se tratar de condição de corrida.
+
+2) omp_trap2a:
+
+Este código é semelhante ao (1), com a diferença de que em vez de passar a variável global_result como parâmetro, esta é incrementada dentro do próprio bloco paralelo também utilizando a diretiva #pragma omp critical. Esta versão usa variável local (my_result) para computar o valor da integral referente à thread, e pode ser vista como uma forma "hand-crafted" da operação Reduce.
+
+3) omp_trap2b:
+
+Esta é uma versão mais enxuta que usa a cláusula de redução do OpenMP para computar o resultado global. Como consequência, não é mais necessário utilizar a diretiva #pragma omp critical, pois o próprio compilador sabera que a variável global_result ocasiona condição de corrida e deve ser reduzida.
+
+4) omp_trap3:
+
+Diferentemente das versões anteriores, omp_trap3 não necessita de calcular os intervalos de integração para cada thread, pois utiliza a diretiva #pragma omp parallel for, que cuida internamente destes cálculos. Consequentemente, esta versão é ainda mais enxuta, e também utiliza a cláusula de redução, que evita com que se crie uma área de seção critica para atualização do resultado global.
+
+5) omp_fibo:
+
+Este é um código que contém um bug proposital, para mostrar que loops com dependências de dados NÃO podem ser paralelizados. Como para calcular um determinado número da sequência de fibonacci é necessário conhecer os dois números anteriores, cria-se uma dependência de dados, e não há garantia de que uma determinada thread tenha acesso a tais números, pois os dados foram dividos entre os processadores. Executando-se o código, é possível observar que os resultados muitas vezes são incorretos ou contém lixo de memória, justamente devido ao fato das threads não possuirem conhecimento acerca dos números anteriores da sequência.

@@ -1,0 +1,13 @@
+------------------------ p = 1 ------------------------
+block:  Elapsed time = 16.44 seconds / SPEEDUP: 1.0
+cyclic: Elapsed time = 15.17 seconds / SPEEDUP: 1.0 
+------------------------ p = 2 ------------------------ 
+block:  Elapsed time = 12.15 seconds / SPEEDUP: 1.35
+cyclic: Elapsed time = 7.86 seconds  / SPEEDUP: 1.93
+------------------------ p = 4 ------------------------
+block:  Elapsed time = 7.72 seconds  / SPEEDUP: 2.13
+cyclic: Elapsed time = 4.08 seconds  / SPEEDUP: 3.72
+------------------------ p = 8 ------------------------
+block:  Elapsed time = 4.03 seconds  / SPEEDUP: 4.08
+cyclic: Elapsed time = 2.42 seconds  / SPEEDUP: 6.27
+-------------------------------------------------------

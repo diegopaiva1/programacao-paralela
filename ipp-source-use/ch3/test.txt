@@ -1,0 +1,55 @@
+n = 2
+	(1) With n = 2000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000947e+00
+Elapsed = 0.03s s
+	(2) With n = 2000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000947e+00
+Elapsed = 0.02s s
+	(3) With n = 2000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000947e+00
+Elapsed = 0.02s s
+	(4) With n = 2000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000947e+00
+Elapsed = 0.02s s
+	(5) With n = 2000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000947e+00
+Elapsed = 0.03s s
+n = 4
+	(1) With n = 4000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000144e+00
+Elapsed = 0.05s s
+	(2) With n = 4000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000144e+00
+Elapsed = 0.04s s
+	(3) With n = 4000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000144e+00
+Elapsed = 0.04s s
+	(4) With n = 4000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000144e+00
+Elapsed = 0.04s s
+	(5) With n = 4000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000144e+00
+Elapsed = 0.04s s
+n = 6
+	(1) With n = 6000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 8.999999999999650e+00
+Elapsed = 0.06s s
+	(2) With n = 6000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 8.999999999999650e+00
+Elapsed = 0.06s s
+	(3) With n = 6000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 8.999999999999650e+00
+Elapsed = 0.07s s
+	(4) With n = 6000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 8.999999999999650e+00
+Elapsed = 0.07s s
+	(5) With n = 6000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 8.999999999999650e+00
+Elapsed = 0.07s s
+n = 8
+	(1) With n = 8000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000462e+00
+Elapsed = 0.08s s
+	(2) With n = 8000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000462e+00
+Elapsed = 0.08s s
+	(3) With n = 8000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000462e+00
+Elapsed = 0.08s s
+	(4) With n = 8000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000462e+00
+Elapsed = 0.08s s
+	(5) With n = 8000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000462e+00
+Elapsed = 0.08s s
+n = 10
+	(1) With n = 10000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000604e+00
+Elapsed = 0.09s s
+	(2) With n = 10000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000604e+00
+Elapsed = 0.10s s
+	(3) With n = 10000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000604e+00
+Elapsed = 0.12s s
+	(4) With n = 10000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000604e+00
+Elapsed = 0.09s s
+	(5) With n = 10000000 trapezoids, our estimate of the integral from 0.000000 to 3.000000 = 9.000000000000604e+00
+Elapsed = 0.10s s

@@ -1,0 +1,24 @@
+------------------------------- p = 1 -------------------------------
+With n = 1073741824 trapezoids, our estimate
+of the integral from 0.000000 to 3.000000 = 8.99999999999989e+00
+10,67s user 0,00s system 99% cpu 10,675 total
+SPEEDUP    = 1.0
+EFFICIENCY = 1.0
+------------------------------- p = 2 -------------------------------
+With n = 1073741824 trapezoids, our estimate
+of the integral from 0.000000 to 3.000000 = 8.99999999999951e+00
+10,55s user 0,00s system 199% cpu 5,277 total
+SPEEDUP    = 2.02
+EFFICIENCY = 1.01
+------------------------------- p = 4 -------------------------------
+With n = 1073741824 trapezoids, our estimate
+of the integral from 0.000000 to 3.000000 = 8.99999999999902e+00
+11,38s user 0,00s system 399% cpu 2,850 total
+SPEEDUP    = 3.74
+EFFICIENCY = 0.94
+------------------------------- p = 8 -------------------------------
+With n = 1073741824 trapezoids, our estimate
+of the integral from 0.000000 to 3.000000 = 9.00000000000004e+00
+12,43s user 0,02s system 744% cpu 1,673 total
+SPEEDUP    = 6.38
+EFFICIENCY = 0.80
